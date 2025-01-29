@@ -1,0 +1,40 @@
+.menu {
+    width: 50vw;
+    height: 50vh;
+    min-height: 25rem;
+    background-color: var(--content-background-color);
+    border-radius: var(--border-radius);
+    position: absolute;
+    margin: auto;
+    transition: transform 400ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
+    backdrop-filter: var(--blur);
+}
+
+.menu:hover {
+    transform: scale(1.05);
+}
+
+.menu > h1 {
+    text-align: center;
+    font-size: 5vw;
+    margin: 0;
+}
+
+.menu > div > button {
+    font-size: 2vw;
+    background: none;
+    border: none;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    transition: transform 100ms ease-in-out;
+}
+
+.menu > div > button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}

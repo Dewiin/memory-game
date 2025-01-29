@@ -1,0 +1,9 @@
+.game-scores {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-scores > p {
+    margin: 0 0 2rem;
+}

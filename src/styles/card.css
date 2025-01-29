@@ -1,0 +1,24 @@
+.memory-card {
+    background-color: var(--card-background-color);
+    width: var(--card-width);
+    height: calc(1.4 * var(--card-width));
+    border-radius: var(--border-radius);
+    transition: transform 150ms;
+    text-align: center;
+    align-content: center;
+    font-size: var(--card-font-size);
+}
+
+.memory-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.memory-card.flash {
+    animation: flash-green 1s ease-in-out;
+}
+
+@keyframes flash-green {
+    0% { background-color: rgba(200, 200, 200, 0.5); }
+    100% { background-color: var(--card-background-color); }
+}

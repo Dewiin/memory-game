@@ -1,0 +1,24 @@
+.loading-screen {
+    position: absolute;
+    margin: auto;
+    width: 50vw;
+    height: 50vh;
+    background-color: var(--content-background-color);
+    border-radius: var(--border-radius);
+    backdrop-filter: var(--blur);
+}
+
+.loading-screen > div {
+    width: 20vw;
+    height: 20vh;
+    background: url("/loading.gif") no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 10vh auto 0;
+}
+
+.loading-screen > p {
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+}
