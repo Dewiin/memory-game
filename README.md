@@ -1,7 +1,7 @@
 # Memory! 
 
 <div align="center">
-    <h1">🎮</h1>
+    <img src='./public/memory-logo.png' width=150>
     <h1>Memory Game</h1>
 </div>
 
